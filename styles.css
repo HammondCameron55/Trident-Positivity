@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff; /* White background */
+  color: #0033cc; /* Blue text color, like Trident's theme */
+  font-family: 'Poppins', sans-serif; /* Poppins font */
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  width: 80%; /* Adjust width as needed */
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 51, 204, 0.1); /* Soft box shadow for depth */
+}
+
+.logo {
+  max-width: 25%; /* Logo size reduced by 50% */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px;
+}
+
+#introText, #outroText {
+  margin-bottom: 20px;
+  font-size: 24px; /* Increased font size for visibility */
+  color: #666666; /* Subdued text color for less emphasis */
+}
+
+.message {
+  font-size: 48px; /* Significantly larger font size for the message */
+  padding: 20px;
+  color: #ff6600; /* Orange text color for highlighting */
+  border: 2px solid #ff6600; /* Orange border to make it stand out */
+  background-color: #FFF0E0; /* Light orange background for soft emphasis */
+  margin: 20px 0; /* Added space around the message */
+}
+
+.change-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #0033cc; /* Blue background for the button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.change-button:hover {
+  background-color: #002299; /* Darker blue on hover */
+}
